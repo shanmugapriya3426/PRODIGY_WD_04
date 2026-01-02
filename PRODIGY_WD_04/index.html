@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Portfolio — Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#">Riya<span class="accent-dot">.</span></a>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <h1 class="headline">Crafting beautiful, usable web experiences</h1>
+            <p class="subhead">Hi—I’m <strong>Riya</strong>, a front-end-focused web developer who builds accessible, responsive, and delightful products.</p>
+            <div class="cta-row">
+              <a class="btn primary" href="#projects">See My Work</a>
+              <a class="btn secondary" href="#contact">Get in Touch</a>
+            </div>
+            <ul class="skills-inline">
+              <li>Java</li>
+              <li>Python</li>
+              <li>HTML,CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <aside class="hero-photo">
+            <div class="photo-frame">
+              <img src="https://i.pinimg.com/736x/9d/20/48/9d204809d490575d9cf938dc8c4bdf6d.jpg" alt="Professional photo placeholder">
+            </div>
+            <div class="photo-accent"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="about container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="divider"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I’m a web developer with experience building scalable front-end applications, component libraries, and polished user interfaces. I enjoy pairing clean, semantic HTML with modern CSS and performant JavaScript.</p>
+            
+            <div class="about-details">
+              <div class="detail-block">
+                <h3>Background</h3>
+                <p>Studied Computer Science, worked on product teams, shipped features from concept to production, and contributed to open-source projects.</p>
+              </div>
+              <div class="detail-block">
+                <h3>Education</h3>
+                <p>BCA — Madras University</p>
+              </div>
+            </div>
+
+            <h3>Experience</h3>
+            <ul class="experience-list">
+              <li>
+                <strong>Web development intern at Prodigy Infotech</strong>
+                <p>Built modern, user-focused front-end components while improving core web development skills.</p>
+              </li>
+              <li>
+                <strong>UI/UX intern at XYZ</strong>
+                <p>Learned core UI/UX principles and applied them to create more intuitive and visually consistent layouts.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat">
+              <strong>2+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <strong>10+</strong>
+              <span>Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <strong>5</strong>
+              <span>Open-source</span>
+            </div>
+            <a class="btn primary full-width" href="#contact">Hire me</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-header">
+            <h2>Selected Projects</h2>
+            <div class="divider"></div>
+          </div>
+          
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="thumb-container">
+                <div class="thumb" style="background-image:url('https://i.pinimg.com/1200x/95/b5/46/95b546a55b370597ae52a5d15f59edbf.jpg')"></div>
+                <div class="thumb-overlay"></div>
+              </div>
+              <div class="card-body">
+                <h3>Project One</h3>
+                <p>Created a front-end e-commerce interface featuring product listings and a structured shopping layout.</p>
+                <div class="card-actions">
+                  <a class="btn small" href="#">View</a>
+                  <a class="btn small ghost" href="#">Source</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="thumb-container">
+                <div class="thumb" style="background-image:url('https://i.pinimg.com/1200x/81/64/40/81644088fd3801f5eb1cd0b0f3dbfe14.jpg')"></div>
+                <div class="thumb-overlay"></div>
+              </div>
+              <div class="card-body">
+                <h3>Project Two</h3>
+                <p>Developed a precise, minimal stopwatch app with start, stop, and reset functionality.</p>
+                <div class="card-actions">
+                  <a class="btn small" href="#">View</a>
+                  <a class="btn small ghost" href="#">Source</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="thumb-container">
+                <div class="thumb" style="background-image:url('https://i.pinimg.com/736x/b0/34/43/b03443d126a71a91bc459b2fc11ae058.jpg')"></div>
+                <div class="thumb-overlay"></div>
+              </div>
+              <div class="card-body">
+                <h3>Project Three</h3>
+                <p>Built a front-end replica of Spotify with a responsive layout and functional UI elements.</p>
+                <div class="card-actions">
+                  <a class="btn small" href="#">View</a>
+                  <a class="btn small ghost" href="#">Source</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <div class="contact-wrapper">
+          <div class="contact-header">
+            <h2>Contact</h2>
+            <p>Interested in working together? Send me a note.</p>
+          </div>
+          <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+            <div class="form-row">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" required placeholder="Your Name">
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" required placeholder="Name@example.com">
+              </label>
+            </div>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+            </label>
+            <div class="form-footer">
+              <button class="btn primary" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© Riya — Web Developer</span>
+        <nav>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
